@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import '../TuitionFeePage/tutionFee.css'
 import calculateLoan from './CalculateFeeLoan'
-import  predictLoan from './CalculateFeeLoan'
 export default function TuitionFeePage() {
     const [loanAmount, setLoanAmount] = useState(0)
     const [interestRate, setInterestRate] = useState(2.6)
@@ -18,7 +17,7 @@ export default function TuitionFeePage() {
      function handleChangeGraduationYrs(e) {
         setYearsUntilGraduation(e.target.value)
      }
-    return(<header>
+    return(<box-container>
         <div class="container">
             <h1>Student Loan Predictor</h1>
             <div class="calculator">
@@ -66,6 +65,6 @@ export default function TuitionFeePage() {
             </div>
         </div>
         
-    </header>
+    </box-container>
     )
 }

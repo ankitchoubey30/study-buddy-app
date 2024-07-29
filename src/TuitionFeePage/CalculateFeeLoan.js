@@ -1,5 +1,4 @@
 export default function calculateLoan(props) {
-
     let {loanAmount,interestRate,repaymentTerm,yearsUntilGraduation} =props
      loanAmount = parseFloat(loanAmount);
      interestRate = parseFloat(interestRate) / 100 / 12;

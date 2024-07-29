@@ -1,4 +1,4 @@
-header {
+box-container {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
@@ -20,7 +20,7 @@ header {
 
 h1 {
     font-size: 24px;
-    color: #f77b00;
+    color: #9b2ebc;
     margin-bottom: 20px;
 }
 
@@ -70,17 +70,17 @@ button {
 }
 
 .calculate-btn {
-    background-color: #f77b00;
+    background-color: #6e2ebc;
     transition: background-color 0.3s;
 }
 
 .calculate-btn:hover {
-    background-color: #d06800;
+    background-color: #9b2ebc;
 }
 
 .result {
     width: 45%;
-    background-color: #fff4e3;
+    background-color: #ddd1ec;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -100,7 +100,7 @@ button {
 }
 
 .apply-btn {
-    background-color: #f77b00;
+    background-color: #6e2ebc;
     padding: 10px 20px;
     font-size: 16px;
     color: white;
@@ -111,5 +111,5 @@ button {
 }
 
 .apply-btn:hover {
-    background-color: #d06800;
+    background-color: #9b2ebc;
 }
