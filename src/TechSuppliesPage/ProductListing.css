@@ -1,0 +1,29 @@
+.product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product img {
+    width: 100%;
+  }
+  
+  .product .bnpl-badge {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .product .bnpl-badge:hover {
+    background-color: #45a049;
+  }

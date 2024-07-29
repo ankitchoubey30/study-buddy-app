@@ -1,0 +1,18 @@
+{
+    "products": [
+      {
+        "id": "123456789",
+        "name": "BLACK CAMERA - DIGITAL SLR",
+        "description": "With the latest sensor and image processor, the Black Camera can consecutively shoot thousands of high-definition photos. Built-in capabilities include time-lapse recording, autofocus, and subject tracking in all kinds of lighting conditions. More than just a performance powerhouse, the Black Camera has an attractive profile, and is comfortable to hold.",
+        "price": "300.00",
+        "images": [
+          "https://via.placeholder.com/500",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150"
+        ]
+      }
+    ]
+  }
+  

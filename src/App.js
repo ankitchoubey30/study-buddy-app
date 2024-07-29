@@ -6,7 +6,10 @@ import Home from './Home/Home';
 import RentPage from './RentPage/RentPage';
 import TuitionFeePage from './TuitionFeePage/TuitionFeePage';
 import CourseMaterialsPage from './CourseMaterialsPage/CourseMaterialsPage';
-import TechSuppliesPage from './TechSuppliesPage/TechSuppliesPage';
+
+import Homepage from './TechSuppliesPage/Homepage';
+import ProductDetail from './TechSuppliesPage/ProductDetail';
+import ProductListing from './TechSuppliesPage/ProductListing';
 
 function App() {
   return (
@@ -15,9 +18,12 @@ function App() {
       <Switch>
       <Route path ="/study-buddy-app" component={Home}></Route>
       <Route path ="/rentPage" component={RentPage}></Route>
-      <Route path ="/tuitionFeePage" component={TuitionFeePage}></Route>
+      <Route path ="/tuition-Fee-Page" component={TuitionFeePage}></Route>
       <Route path ="/courseMaterialsPage" component={CourseMaterialsPage}></Route>
-      <Route path ="/techSuppliesPage" component={TechSuppliesPage}></Route>
+      <Route path ="/techSuppliesPage/products/:id" component={ProductDetail}></Route>
+      <Route path ="/techSuppliesPage/products" component={ProductListing}></Route>
+     
+      
         {/* <Route exact path="/login" Component={LoginPage}></Route>
         <PrivateRoute path ="/studybuddy" component={Home}></PrivateRoute>
         <PrivateRoute path ="/loansection" component={LoanPage}></PrivateRoute> */}

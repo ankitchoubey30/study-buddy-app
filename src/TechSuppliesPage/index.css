@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.header img {
+  max-height: 50px;
+}
+
+.header .bnpl-banner {
+  display: flex;
+  align-items: center;
+}
+
+.header .bnpl-banner img {
+  margin-right: 10px;
+}
+
+.header .bnpl-banner a {
+  color: #0070ba;
+  text-decoration: none;
+}
+
+.header .bnpl-banner a:hover {
+  text-decoration: underline;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 22%;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 1.2em;
+}
+
+.product p {
+  color: #333;
+}

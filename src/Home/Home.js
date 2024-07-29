@@ -37,7 +37,7 @@ function Home() {
             </div>
             <div className="service">
               <div className="service-icon tuition-icon"></div>
-              <a href='/tuitionFeePage'> <p>Tuition Fee</p></a>
+              <a href='/tuition-Fee-Page'> <p>Tuition Fee</p></a>
             </div>
             <div className="service">
               <div className="service-icon materials-icon"></div>
@@ -45,7 +45,7 @@ function Home() {
             </div>
             <div className="service">
               <div className="service-icon tech-icon"></div>
-              <a href='/techSuppliesPage'><p>Tech & Supplies</p></a>
+              <a href='/techSuppliesPage/products'><p>Tech & Supplies</p></a>
             </div>
           </div>
           <button className="know-more-button">Know More</button>
