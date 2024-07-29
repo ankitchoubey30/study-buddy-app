@@ -6,7 +6,7 @@ function Home() {
     <div className="App">
       <header className="header">
         <div className="profile-picture">
-         <img src="/images/profile.jpg" alt="Profile" />
+         <img src="public/images/profile.png"/>
         </div>
         <div className="logo">
           <img src="/images/tutionfee.png" alt="Study Buddy" />
@@ -30,19 +30,20 @@ function Home() {
           <div className="services">
             <div className="service">
               <div className="service-icon rent-icon"></div>
-              <p>Rent</p>
+              <a href='/rentPage'><p>Rent</p></a>
+              
             </div>
             <div className="service">
               <div className="service-icon tuition-icon"></div>
-              <p>Tuition Fee</p>
+              <a href='/tuitionFeePage'> <p>Tuition Fee</p></a>
             </div>
             <div className="service">
               <div className="service-icon materials-icon"></div>
-              <p>Course Materials</p>
+              <a href='/courseMaterialsPage'> <p>Course Materials</p></a>
             </div>
             <div className="service">
               <div className="service-icon tech-icon"></div>
-              <p>Tech & Supplies</p>
+              <a href='/techSuppliesPage'><p>Tech & Supplies</p></a>
             </div>
           </div>
           <button className="know-more-button">Know More</button>
