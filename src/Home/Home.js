@@ -1,15 +1,17 @@
 import React from 'react';
 import './Home.css';
-
+import logoImage from '../Home/logo.jpeg';
+import profileImage from '../Home/profile.png'
+import loanImage from '../Home/loanImage.JPG'
 function Home() {
   return (
     <div className="App">
       <header className="header">
         <div className="profile-picture">
-         <img src="public/images/profile.png"/>
+         <img src={profileImage}/>
         </div>
         <div className="logo">
-          <img src="/images/tutionfee.png" alt="Study Buddy" />
+          <img src={logoImage} alt="Study Buddy" />
         </div>
         <div className="menu-icon">
           <div></div>
@@ -19,7 +21,7 @@ function Home() {
       </header>
       <main>
         <section className="banner">
-          <img src="path_to_banner_image.jpg" alt="Banner" />
+          <img src={loanImage} alt="Banner" />
         </section>
         <section className="main-content">
           <div className="content-box">
