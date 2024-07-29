@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .profile-picture img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .menu-icon div {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .content-box {
+    background-color: #6e2ebc;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .content-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+  }
+  
+  .subtext {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .service {
+    text-align: center;
+  }
+  
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+   .rent-icon {
+    background-image: url('/public/images/homebutton.png');
+    background-size: cover;
+  }
+  
+  .tuition-icon {
+    background-image: url('/public/images/tutionfee.png');
+    background-size: cover;
+  }
+  
+  .materials-icon {
+    background-image: url('/public/images/studymaterial.png');
+    background-size: cover;
+  }
+  
+  .tech-icon {
+    background-image: url('/public/images/techsupply.png');
+    background-size: cover;
+  } 
+  
+  .know-more-button {
+    background-color: #6e2ebc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .know-more-button:hover {
+    background-color: #532093;
+  }
