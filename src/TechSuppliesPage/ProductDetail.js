@@ -19,7 +19,7 @@ const ProductDetail = () => {
     id: '123456789',
     name: 'BLACK CAMERA - DIGITAL SLR',
     description: 'With the latest sensor and image processor, the Black Camera can consecutively shoot thousands of high-definition photos. Built-in capabilities include time-lapse recording, autofocus, and subject tracking in all kinds of lighting conditions. More than just a performance powerhouse, the Black Camera has an attractive profile, and is comfortable to hold.',
-    price: '$300',
+    price: '£300',
     images: [
         cameraImg,
     ],
@@ -117,11 +117,11 @@ const ProductDetail = () => {
       <div className="details">
         <h1>{product.name}</h1>
         <h2>with 18-55mm Zoom Lens</h2>
-        <div className="price">${product.price}</div>
+        <div className="price">{product.price}</div>
         <div className="product-id">Product ID: {product.id}</div>
         <div className="paypal-banner">
           <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg" alt="PayPal" />
-          <span>Pay in 4 interest-free payments of ${(product.price / 4).toFixed(2)}. <a href="#">Learn more</a></span>
+          <span>Pay in 4 interest-free payments of £{(product.price / 4).toFixed(2)}. <a href="#">Learn more</a></span>
         </div>
         <div className="description">{product.description}</div>
         <div className="actions">

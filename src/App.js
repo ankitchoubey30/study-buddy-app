@@ -11,6 +11,9 @@ import Homepage from './TechSuppliesPage/Homepage';
 import ProductDetail from './TechSuppliesPage/ProductDetail';
 import ProductListing from './TechSuppliesPage/ProductListing';
 
+import InstagramPage from './Instagram Page/InstagramPage';
+import SignupPage from './SignUp Page/SignUp';
+
 function App() {
   return (
    <Router>
@@ -22,7 +25,9 @@ function App() {
       <Route path ="/courseMaterialsPage" component={CourseMaterialsPage}></Route>
       <Route path ="/techSuppliesPage/products/:id" component={ProductDetail}></Route>
       <Route path ="/techSuppliesPage/products" component={ProductListing}></Route>
-     
+      <Route path ="/instagrampage" component={InstagramPage}></Route>
+      <Route path ="/signup" component={SignupPage}></Route>
+
       
         {/* <Route exact path="/login" Component={LoginPage}></Route>
         <PrivateRoute path ="/studybuddy" component={Home}></PrivateRoute>

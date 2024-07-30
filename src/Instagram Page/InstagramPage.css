@@ -1,0 +1,164 @@
+.instagram-page {
+    display: flex;
+    background-color: #ffffff; /* Set background to white */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    color: #000000; /* Set text color to black */
+  }
+  
+  .sidebar {
+    width: 400px; /* Ensure sidebar width is set correctly */
+    padding: 20px;
+    background-color: #ffffff !important; /* Force background to white */
+    border-right: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+    height: 100vh; /* Ensure sidebar height is 100% of the viewport */
+    position: sticky;
+    top: 0;
+    flex-shrink: 0; /* Prevent sidebar from shrinking */
+  }
+  
+  .instagram-logo {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  
+  .navigation {
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation li {
+    margin: 20px 0;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #000000; /* Set link color to black */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation a:hover {
+    color: #555555; /* Set hover color to a darker gray */
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .user-profile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .user-profile-name {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #000000; /* Set text color to black */
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .stories {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Set background to white */
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  
+  .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .story-profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+    padding: 2px;
+  }
+  
+  .feed {
+    background-color: #ffffff; /* Set background to white */
+  }
+  
+  .ad-post {
+    background: #ffffff; /* Set background to white */
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 15px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 140px;
+    /* border-radius: 50%; */
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #000000; /* Set text color to black */
+  }
+  
+  .ad-image {
+    width: 600px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    ;
+  }
+  
+  
+  .post-content {
+    text-align: center;
+    color: #000000; /* Set text color to black */
+  }
+  
+  .get-started-button {
+    background-color: #2655ac; /* Set button background to black */
+    color: #ffffff; /* Set button text color to white */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .get-started-button:hover {
+    background-color: #333333; /* Set hover background color to dark gray */
+  }
+  
